@@ -16,3 +16,8 @@ variable annotations {
   type = map (string)
   default = {}
 }
+
+variable pod_limits {
+  description = "The maximum number of pods that can be created in the namespace."
+  default = 100
+}

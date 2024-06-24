@@ -5,6 +5,7 @@
 module "demo" {
   source = "bukieajayi/namespace/kubernetes"
   name   = "this-ns-demo"
+  pod_limit = 100
 }
 
 labels = {
