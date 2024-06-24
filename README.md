@@ -7,3 +7,9 @@ module "demo" {
   name   = "this-ns-demo"
 }
 
+labels = {
+    "env" = "demo"
+}
+annotations = {
+  "created-by" = "terraform"
+}
